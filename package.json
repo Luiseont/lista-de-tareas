@@ -1,0 +1,33 @@
+{
+  "name": "lista-tareas",
+  "version": "1.0.0",
+  "description": "Prueba tecnica para puesto de desarrollador ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "keywords": [
+    "lista",
+    "tareas",
+    "prueba",
+    "tecnica",
+    "fullstack"
+  ],
+  "author": "Luis Ontivero",
+  "license": "ISC",
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "nuxt": "^3.8.2",
+    "pinia": "^2.1.7",
+    "sass": "^1.69.5"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.1"
+  }
+}

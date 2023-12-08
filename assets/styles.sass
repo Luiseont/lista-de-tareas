@@ -1,0 +1,62 @@
+
+$primary: #5c946e
+$secondary: #a0dde6
+
+body 
+    padding: 0
+    margin: 0
+    background-color: #2a2d34
+
+.container
+    margin: auto
+    width: 98%
+    min-height: 100%
+    background-color: #ffffff
+
+.header
+    text-align: center
+    padding: 10px
+
+.header > h2
+    color: #30c5ff
+    
+.content
+    min-height: 450px
+    padding: 5px
+
+section
+    display: flex
+    flex-direction: column
+section > div
+    flex: 50px
+
+.buttons
+    text-align: center
+
+.control
+    border-radius: 5px
+    width: 350px
+    height: 25px    
+
+.btn
+    height: 25px
+    margin: 5px
+    text-align: center
+    font-style: italic
+.primary
+    background-color: $primary
+    color: #ffffff
+    &:hover
+        background-color: $secondary
+        color: #000000
+
+.danger
+    background-color: $secondary
+    color: #000000
+    &:hover
+        background-color: #f23a3a
+        color: #ffffff
+        
+
+
+    
