@@ -2,7 +2,7 @@
    <section>
     <div class="buttons">
         <input class="control" maxlength="30" type="text" name="task" v-model="tasksname">
-        <button class="btn primary" @click="add()">
+        <button id="addTaskButton" class="btn primary" @click="add()">
             agregar
         </button>
     </div>
